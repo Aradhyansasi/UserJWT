@@ -60,6 +60,7 @@ class UserView(APIView):
 
 
 
+
 class LogoutView(APIView):
     def post(self,request):
         response = Response()
